@@ -1,5 +1,5 @@
 # Taint_Muggle
-Stupid Variable Taint Analysis modules with Binary Ninja
+**Stupid** Variable Taint Analysis modules with Binary Ninja
 
 ## Description
 The variables specified by the binary ninja are tracked by forward/backward (Taint analysis). Simply use ssa_form's `get_ssa_var_definition` and `get_ssa_var_uses`. Since many cases are not considered, they can operate "stupid" as described.
